@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16e6e90b-df9e-4343-accb-2219c2eebf86" name="Default" comment="" />
+    <list default="true" id="16e6e90b-df9e-4343-accb-2219c2eebf86" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Calculator/CalculatorController.class" afterPath="$PROJECT_DIR$/out/production/Calculator/CalculatorController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CalculatorController.java" afterPath="$PROJECT_DIR$/src/CalculatorController.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,13 +30,12 @@
       <file leaf-file-name="CalculatorController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CalculatorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="174">
+              <caret line="83" column="30" lean-forward="false" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#handleButtonAction#0;class#CalculatorController#0" expanded="false" />
-                <element signature="method#numberHandler#0;class#CalculatorController#0" expanded="false" />
-                <element signature="method#operationHandler#0;class#CalculatorController#0" expanded="false" />
+                <element signature="method#validate#0;class#CalculatorController#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -40,12 +44,13 @@
       <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="38" column="51" lean-forward="false" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+            <state relative-caret-position="270">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding>
-                <element signature="method#precedence#0;class#Calculator#0" expanded="false" />
-                <element signature="method#calculator#0;class#Calculator#0" expanded="false" />
-                <element signature="method#lookAhead#0;class#Calculator#0" expanded="false" />
+                <element signature="e#2188#2189#0" expanded="true" />
+                <element signature="e#2237#2238#0" expanded="true" />
+                <element signature="e#2279#2280#0" expanded="true" />
+                <element signature="e#2315#2316#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,6 +64,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -77,12 +85,13 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="38" />
     <option name="y" value="35" />
     <option name="width" value="1231" />
     <option name="height" value="698" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -98,10 +107,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,15 +116,12 @@
               <item name="Calculator" type="b2602c69:ProjectViewProjectNode" />
               <item name="Calculator" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Calculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,7 +254,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="35" width="1231" height="698" extended-state="1" />
+    <frame x="38" y="35" width="1231" height="698" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -261,12 +265,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22222222" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22222222" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18755257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18755257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -293,6 +297,39 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ProgramDriver.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalculatorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#handleButtonAction#0;class#CalculatorController#0" expanded="false" />
+            <element signature="method#validate#0;class#CalculatorController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="51" lean-forward="false" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+          <folding>
+            <element signature="e#2188#2189#0" expanded="true" />
+            <element signature="e#2237#2238#0" expanded="true" />
+            <element signature="e#2279#2280#0" expanded="true" />
+            <element signature="e#2315#2316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProgramDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
@@ -306,8 +343,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#handleButtonAction#0;class#CalculatorController#0" expanded="false" />
-            <element signature="method#numberHandler#0;class#CalculatorController#0" expanded="false" />
-            <element signature="method#operationHandler#0;class#CalculatorController#0" expanded="false" />
+            <element signature="method#validate#0;class#CalculatorController#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -327,8 +363,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#handleButtonAction#0;class#CalculatorController#0" expanded="false" />
-            <element signature="method#numberHandler#0;class#CalculatorController#0" expanded="false" />
-            <element signature="method#operationHandler#0;class#CalculatorController#0" expanded="false" />
+            <element signature="method#validate#0;class#CalculatorController#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -348,8 +383,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#handleButtonAction#0;class#CalculatorController#0" expanded="false" />
-            <element signature="method#numberHandler#0;class#CalculatorController#0" expanded="false" />
-            <element signature="method#operationHandler#0;class#CalculatorController#0" expanded="false" />
+            <element signature="method#validate#0;class#CalculatorController#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -359,9 +393,10 @@
         <state relative-caret-position="221">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="method#precedence#0;class#Calculator#0" expanded="false" />
-            <element signature="method#calculator#0;class#Calculator#0" expanded="false" />
-            <element signature="method#lookAhead#0;class#Calculator#0" expanded="false" />
+            <element signature="e#2188#2189#0" expanded="true" />
+            <element signature="e#2237#2238#0" expanded="true" />
+            <element signature="e#2279#2280#0" expanded="true" />
+            <element signature="e#2315#2316#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -374,6 +409,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calculator.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ProgramDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -382,38 +428,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calculator.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="38" column="51" lean-forward="false" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+        <state relative-caret-position="270">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding>
-            <element signature="method#precedence#0;class#Calculator#0" expanded="false" />
-            <element signature="method#calculator#0;class#Calculator#0" expanded="false" />
-            <element signature="method#lookAhead#0;class#Calculator#0" expanded="false" />
+            <element signature="e#2188#2189#0" expanded="true" />
+            <element signature="e#2237#2238#0" expanded="true" />
+            <element signature="e#2279#2280#0" expanded="true" />
+            <element signature="e#2315#2316#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CalculatorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        <state relative-caret-position="174">
+          <caret line="83" column="30" lean-forward="false" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#handleButtonAction#0;class#CalculatorController#0" expanded="false" />
-            <element signature="method#numberHandler#0;class#CalculatorController#0" expanded="false" />
-            <element signature="method#operationHandler#0;class#CalculatorController#0" expanded="false" />
+            <element signature="method#validate#0;class#CalculatorController#0" expanded="false" />
           </folding>
         </state>
       </provider>

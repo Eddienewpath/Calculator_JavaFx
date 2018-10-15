@@ -64,25 +64,24 @@ public class CalculatorController {
         float firstOperand,unaryOperationResult;
 
         if(event.getSource() == addition) {
-            display.setText(display.getText());
+            display.setText("");
             expression.append("+");
         }
 
 
         else if(event.getSource() == subtraction) {
-            display.setText(display.getText());
+            display.setText("");
             expression.append("-");
         }
 
         else if(event.getSource() == multiplication) {
-            display.setText(display.getText());
+            display.setText("");
             floatPoint.setDisable(false);
-
             expression.append("*");
         }
 
         else if(event.getSource() == division) {
-            display.setText(display.getText());
+            display.setText("");
             expression.append("/");
         }
 
@@ -120,6 +119,7 @@ public class CalculatorController {
     }
 
     private boolean validate(String str){
+        // not implement yet
         return true;
     }
 }
