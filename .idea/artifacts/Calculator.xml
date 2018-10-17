@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="javafx-preloader" name="Calculator">
+    <output-path>$PROJECT_DIR$/out/artifacts/Calculator</output-path>
+    <root id="archive" name="Calculator.jar">
+      <element id="archive" name="Calculator.jar">
+        <element id="module-output" name="Calculator" />
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/production/Calculator/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -64,23 +64,27 @@ public class CalculatorController {
         float firstOperand,unaryOperationResult;
 
         if(event.getSource() == addition) {
+            floatPoint.setDisable(false);
             display.setText("");
             expression.append("+");
         }
 
 
         else if(event.getSource() == subtraction) {
+            floatPoint.setDisable(false);
             display.setText("");
             expression.append("-");
         }
 
         else if(event.getSource() == multiplication) {
+            floatPoint.setDisable(false);
             display.setText("");
             floatPoint.setDisable(false);
             expression.append("*");
         }
 
         else if(event.getSource() == division) {
+            floatPoint.setDisable(false);
             display.setText("");
             expression.append("/");
         }
